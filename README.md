@@ -9,19 +9,19 @@ ___
 return JSON object like this:
 ```Javascript
 {
-unix: '',
+unix: '1473120000',
 natural: 'September 06, 2016'
 }
 ```
 ___
 ```
-/
+/1473120000
 ```
 
 return JSON object like this:
 ```Javascript
 {
-unix: '',
+unix: '1473120000',
 natural: 'September 06, 2016'
 }
 ```
