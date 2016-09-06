@@ -3,6 +3,7 @@ var app = express()
 // var url = require('url-parse')
 var moment = require('moment')
 // var jquery = require('jquery')
+var port = process.env.PORT || 8080
 
 app.get('/:time', function (req, res) {
   var path = req.params.time
@@ -23,4 +24,4 @@ app.get('/:time', function (req, res) {
   res.send(JSON.stringify(result))
 })
 app.use(express.static('./'))
-app.listen(3000)
+app.listen(port)
